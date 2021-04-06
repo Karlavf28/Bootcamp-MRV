@@ -63,8 +63,9 @@ namespace DIO.series
             foreach(int i in Enum.GetValues(typeof (Genero)))
             {
                 Console.WriteLine($" {i} - {Enum.GetName(typeof(Genero),i)}");
-2
+
             }
+            Console.WriteLine();
             int entradaGenero  = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
@@ -79,7 +80,7 @@ namespace DIO.series
   
             int novoID = repositorio.ProximoId();
             Serie novaSerie = new Serie(novoID, (Genero)entradaGenero, entradaTitulo, entradaDescricao, entradaAno );
-            
+            repositorio.Insere(novaSerie);
         }
 
         private static void ListarSeries()
@@ -99,6 +100,8 @@ namespace DIO.series
             {
                 Console.WriteLine($"Id : {serie.RetornaId()}  - Título {serie.RetornaTitulo()} ");
             }
+
+            
 
         }
 
