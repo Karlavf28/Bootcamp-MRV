@@ -26,15 +26,15 @@ namespace DIO.series
                         break;
 
                     case "3":
-                        //AtualizarSerie();
+                        AtualizarSerie();
                         break;
 
                     case "4":
-                        //ExcluirSerie();
+                        ExcluirSerie();
                         break;
                     
                     case "5":
-                        //VisualizarSerie();
+                        VisualizarSerie();
                         break;
 
                     case "6":
@@ -52,10 +52,50 @@ namespace DIO.series
         }
     }
 
-        private static void InserirSerie()
+        private static void VisualizarSerie()
         {
-           
-            Console.WriteLine("Digite um Título para a nova serie:");
+            Console.WriteLine("Qual das series abaixo voce deseja visualizar? ");
+            ListarSeries();
+
+            int idVisualizar = int.Parse(Console.ReadLine());
+            var serie = repositorio.RetornaPorId(idVisualizar);
+
+            Console.WriteLine();
+            Console.WriteLine(serie);
+
+            
+        }
+
+        private static void ExcluirSerie()
+        {
+            Console.WriteLine("Qual das series abaixo voce deseja excluir? ");
+            ListarSeries();
+
+            int idExcluir = int.Parse(Console.ReadLine());
+
+            repositorio.Exclui(idExcluir);
+
+        }
+
+        private static void AtualizarSerie()
+        {
+            Console.WriteLine("Digite o ID da series você deseja atualizar? ");
+            ListarSeries();
+
+            int idEdicao = int.Parse(Console.ReadLine());
+
+            Serie SerieAuxiliar = ObtemDadosSerie();
+
+            Serie serieEditada = new Serie (idEdicao,(Genero)SerieAuxiliar.RetornaGenero() , SerieAuxiliar.RetornaTitulo(), SerieAuxiliar.RetornaDescricao(), SerieAuxiliar.RetornaAno());
+
+            repositorio.Atualiza(idEdicao, serieEditada);
+
+
+        }
+
+        private static Serie ObtemDadosSerie()
+        {
+            Console.WriteLine("Digite um Título para a serie:");
             string entradaTitulo  = Console.ReadLine();
             
             Console.WriteLine("Digite um Gênero entre as opcões abaixo:");
@@ -77,9 +117,18 @@ namespace DIO.series
             int entradaAno  = int.Parse(Console.ReadLine());
             Console.WriteLine();
 
-  
-            int novoID = repositorio.ProximoId();
-            Serie novaSerie = new Serie(novoID, (Genero)entradaGenero, entradaTitulo, entradaDescricao, entradaAno );
+            int id_aux =0;
+            Serie novaSerie = new Serie(id_aux, (Genero)entradaGenero, entradaTitulo, entradaDescricao, entradaAno );
+            
+            return novaSerie;
+        }
+
+        private static void InserirSerie()
+        {
+           Serie SerieAuxiliar = ObtemDadosSerie();
+           int novoId=repositorio.ProximoId();
+           Serie novaSerie = new Serie (novoId,(Genero)SerieAuxiliar.RetornaGenero() , SerieAuxiliar.RetornaTitulo(), SerieAuxiliar.RetornaDescricao(), SerieAuxiliar.RetornaAno());
+            
             repositorio.Insere(novaSerie);
         }
 
@@ -98,7 +147,15 @@ namespace DIO.series
             
             foreach(var serie in lista)
             {
-                Console.WriteLine($"Id : {serie.RetornaId()}  - Título {serie.RetornaTitulo()} ");
+                if(serie.RetornaExcluido())
+                {
+                    Console.WriteLine($"Id : {serie.RetornaId()}  - Título {serie.RetornaTitulo()} - **Excluido**");
+                }
+                else
+                {
+                    Console.WriteLine($"Id : {serie.RetornaId()}  - Título {serie.RetornaTitulo()}");
+                }
+                
             }
 
             
