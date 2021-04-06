@@ -1,4 +1,5 @@
 using System;
+using DIO.series.Interfaces;
 
 namespace DIO.series
 {
@@ -8,6 +9,7 @@ namespace DIO.series
         private string Titulo { get; set; }
         private string Descricao { get; set; }
         private int Ano { get; set; }
+        private bool Excluido { get; set; }
 
 
         public Serie (int id, Genero genero, string titulo, string descricao, int ano)
@@ -17,6 +19,7 @@ namespace DIO.series
             this.Titulo = titulo;
             this.Descricao = descricao;
             this.Ano = ano;
+            this.Excluido = false;
 
         }
 
@@ -38,6 +41,11 @@ namespace DIO.series
         public int RetornaId()
         {
             return this.Id;
+        }
+
+        public void Excluir()
+        {
+            this.Excluido = true;
         }
     }
 } 

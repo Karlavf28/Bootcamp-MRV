@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using System;
-using DIO.Series.Interfaces;
+using DIO.series.Interfaces;
 
 namespace DIO.series.Classes
 {
@@ -31,7 +31,7 @@ namespace DIO.series.Classes
 
         public int ProximoId()
         {
-            return listaSerie.Count
+            return listaSerie.Count;
         }
 
         public Serie RetornaPorId(int id)
