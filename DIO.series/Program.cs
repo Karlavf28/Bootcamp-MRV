@@ -38,7 +38,7 @@ namespace DIO.series
                         break;
 
                     case "6":
-                        //Console.Clear();
+                        Console.Clear();
                         break;
 
                     default:
