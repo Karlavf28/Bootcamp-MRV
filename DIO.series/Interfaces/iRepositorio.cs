@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using DIO.series;
+using DIO.series.Classes;
 
 namespace DIO.series.Interfaces
 {

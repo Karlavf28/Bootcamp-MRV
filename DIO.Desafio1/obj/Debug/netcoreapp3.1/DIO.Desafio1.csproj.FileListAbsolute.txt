@@ -1,0 +1,12 @@
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.csprojAssemblyReference.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.AssemblyInfoInputs.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.AssemblyInfo.cs
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.csproj.CoreCompileInputs.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/bin/Debug/netcoreapp3.1/DIO.Desafio1.deps.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/bin/Debug/netcoreapp3.1/DIO.Desafio1.runtimeconfig.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/bin/Debug/netcoreapp3.1/DIO.Desafio1.runtimeconfig.dev.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/bin/Debug/netcoreapp3.1/DIO.Desafio1.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/bin/Debug/netcoreapp3.1/DIO.Desafio1.pdb
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.pdb
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio1/obj/Debug/netcoreapp3.1/DIO.Desafio1.genruntimeconfig.cache
