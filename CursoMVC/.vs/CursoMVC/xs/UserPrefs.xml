@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{E24FA5EA-66FC-4953-A942-08DCB9E4C152}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CursoMVC/Views/Produtos/Create.cshtml">
+    <Files>
+      <File FileName="CursoMVC/Controllers/ProdutosController.cs" Line="73" Column="10" />
+      <File FileName="CursoMVC/Views/Produtos/Create.cshtml" Line="5" Column="2" />
+      <File FileName="CursoMVC/Views/Produtos/Index.cshtml" Line="38" Column="18" />
+      <File FileName="CursoMVC/Models/Produto.cs" Line="13" Column="44" />
+      <File FileName="CursoMVC/Views/Produtos/Details.cshtml" Line="27" Column="14" />
+      <File FileName="CursoMVC/Views/Produtos/Delete.cshtml" Line="21" Column="60" />
+      <File FileName="CursoMVC/Views/Produtos/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="CursoMVC/Models/Categoria.cs" Line="14" Column="69" />
+      <File FileName="CursoMVC/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CursoMVC" expanded="True">
+            <Node name="CursoMVC" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Produtos" expanded="True">
+                  <Node name="Create.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CursoMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
