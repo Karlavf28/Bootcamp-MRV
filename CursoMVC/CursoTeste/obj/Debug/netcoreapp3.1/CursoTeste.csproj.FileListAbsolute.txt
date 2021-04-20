@@ -1,0 +1,4 @@
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/CursoMVC/CursoTeste/obj/Debug/netcoreapp3.1/CursoTeste.csprojAssemblyReference.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/CursoMVC/CursoTeste/obj/Debug/netcoreapp3.1/CursoTeste.AssemblyInfoInputs.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/CursoMVC/CursoTeste/obj/Debug/netcoreapp3.1/CursoTeste.AssemblyInfo.cs
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/CursoMVC/CursoTeste/obj/Debug/netcoreapp3.1/CursoTeste.csproj.CoreCompileInputs.cache
