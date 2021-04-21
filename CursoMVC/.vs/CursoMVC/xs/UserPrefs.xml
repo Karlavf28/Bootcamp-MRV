@@ -1,43 +1,36 @@
 ﻿<Properties StartupConfiguration="Vários Projetos">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CursoAPI/Controllers/CategoriaControllerAPI.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CursoTeste/CategoriasControllerTeste.cs">
     <Files>
-      <File FileName="CursoTeste/CategoriaController.cs" Line="13" Column="48" />
-      <File FileName="CursoAPI/Models/Categoria.cs" Line="1" Column="1" />
+      <File FileName="CursoAPI/Controllers/CategoriaControllerAPI.cs" Line="40" Column="35" />
+      <File FileName="CursoTeste/CategoriasControllerTeste.cs" Line="22" Column="55" />
       <File FileName="CursoAPI/Models/Context.cs" Line="1" Column="1" />
-      <File FileName="CursoAPI/Controllers/CategoriaControllerAPI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CursoMVC" expanded="True">
             <Node name="CursoAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ProdutoControllerAPI.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
             </Node>
             <Node name="CursoTeste" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="CategoriasControllerTeste.cs" selected="True" />
             </Node>
-          </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="CursoMVC" expanded="True">
-            <Node name="CursoTeste" selected="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.CursoAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.CursoTeste PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.CursoMVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
@@ -46,6 +39,7 @@
       <Items>
         <StartupItem ItemId="{8E68F081-7488-40B6-90E6-A6718BF8B794}" ItemName="CursoAPI" ConfigurationId="Default" />
         <StartupItem ItemId="{E24FA5EA-66FC-4953-A942-08DCB9E4C152}" ItemName="CursoMVC" ConfigurationId="Default" />
+        <StartupItem ItemId="{3DFBE3AF-7457-4D6A-96C9-FC442110EAF2}" ItemName="CursoTeste" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>

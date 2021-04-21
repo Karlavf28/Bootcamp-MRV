@@ -23,9 +23,9 @@ namespace CursoTeste
 
             _categoria = new Categoria { Id = 1, Descricao = "Teste Categoria" };
 
-            _mockContext.Setup(m => m.Categorias).Returns(_mockSet.Object);
+            //_mockContext.Setup(m => m.Categorias).Returns(_mockSet.Object);
 
-            _mockContext.Setup(m => m.Categorias.FindAsync(1)).ReturnAsync(_categoria);
+            //_mockContext.Setup(m => m.Categorias.FindAsync(1)).ReturnAsync(_categoria);
 
 
         }
@@ -35,7 +35,7 @@ namespace CursoTeste
         public async Task Get_Categoria()
         {
 
-            var service = new CategoriaControllerAPI(_mockContext.Object);
+            CategoriaControllerAPI service = new CategoriaControllerAPI(_mockContext.Object);
 
             await service.GetCategoria(1);
 
@@ -43,5 +43,7 @@ namespace CursoTeste
 
 
         }
+
+        
     }
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tdhiRp56z5v1aHJ4EFc5duy7Q+m31uSvOh66Me2Zxa5yatlUJf3WTrIDnTW++wavKH67YWBJWkXe2Pfm/C6rAQ==",
+  "dgSpecHash": "X6ecl2MaNrITuwAHZXUgE38TFkEE/P56rwv87GTYAKyY6/L0sAZS6z1SNQb1fnEy0V8t4DiIxS4pZk9k4PBFJA==",
   "success": true,
   "projectFilePath": "/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/CursoMVC/CursoTeste/CursoTeste.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "/Users/karlafernandes/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
     "/Users/karlafernandes/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "/Users/karlafernandes/.nuget/packages/microsoft.netcore.targets/1.1.3/microsoft.netcore.targets.1.1.3.nupkg.sha512",
+    "/Users/karlafernandes/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
     "/Users/karlafernandes/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/karlafernandes/.nuget/packages/microsoft.testplatform.objectmodel/16.5.0/microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
     "/Users/karlafernandes/.nuget/packages/microsoft.testplatform.testhost/16.5.0/microsoft.testplatform.testhost.16.5.0.nupkg.sha512",

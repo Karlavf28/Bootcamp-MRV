@@ -14,10 +14,16 @@ namespace CursoAPI.Controllers
     public class CategoriaControllerAPI : ControllerBase
     {
         private readonly Context _context;
+        private DbSet<Context> @object;
 
         public CategoriaControllerAPI(Context context)
         {
             _context = context;
+        }
+
+        public CategoriaControllerAPI(DbSet<Context> @object)
+        {
+            this.@object = @object;
         }
 
         // GET: api/CategoriaControllerAPI
