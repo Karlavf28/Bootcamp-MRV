@@ -1,0 +1,15 @@
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/DIO.Desafio2.deps.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/DIO.Desafio2.runtimeconfig.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/DIO.Desafio2.runtimeconfig.dev.json
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/DIO.Desafio2.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/ref/DIO.Desafio2.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/bin/Debug/net5.0/DIO.Desafio2.pdb
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.csprojAssemblyReference.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.AssemblyInfoInputs.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.AssemblyInfo.cs
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.csproj.CoreCompileInputs.cache
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/ref/DIO.Desafio2.dll
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.pdb
+/Users/karlafernandes/Documents/Cursos/Bootcamp-MRV/DIO.Desafio2/obj/Debug/net5.0/DIO.Desafio2.genruntimeconfig.cache
